@@ -32,7 +32,9 @@ Below is a chart showing the different neurons, layers, and functions used in th
 No, the target model performance of 75% was not achieved using the neurons, layers, and activation functions summarized above.
 
 - What steps did you take to try and increase model performance?<br>
-Several models were used to try to reach the 75% accuracy score. For the neural network model, several hidden layers were attempted. Neurons were adjusted. Number of epochs were increased. Different optimizers were tried. The activations attemped were 'relu' and 'tanh'. Also, an attempt was made to drop rows of noisy data from the ASK_AMT column. This was unsuccessful and the attempt was abandoned.
+Several models were used to try to reach the 75% accuracy score. For the neural network model, several hidden layers were attempted. Neurons were adjusted. Number of epochs were increased. Different optimizers were tried. The activations attemped were 'relu' and 'sigmoid'. Also, an attempt was made to drop rows of noisy data from the ASK_AMT column. This was unsuccessful and the attempt was abandoned.
 
 ## Summary: 
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+While the 75% target was not acheived, the most accurate of the attempts was the second attempt using two hidden layers, 80 and 55 neurons, the relu activation on the hidden layers, 100 epochs, the adam optimizer, and a sigmoid ouput layer.  
+
+One model that would be recommended to solve the classification problem would be the Random Forest Classifier.  Random forest classifiers are a type of ensemble learning model that combines multiple smaller models into a more robust and accurate model.  The Random Forest Classifier is faster to train and predict values.
