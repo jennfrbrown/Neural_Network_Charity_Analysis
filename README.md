@@ -10,7 +10,18 @@ The purpose of this analysis was to create a binary classifier that is capable o
 The variable considered for the target in the model is the "Is_Successful".
 
 - What variable(s) are considered to be the features for your model?
+The variables that are considered to be features for my model are: 
+- Application_Type
+- Affiliation
+- Classification
+- Use_Case
+- Status
+- Income_Amt
+- Special Considerations
+- Ask_Amt
+
 - What variable(s) are neither targets nor features, and should be removed from the input data?
+Variables that are neither targets nor features and were removed from the input data are EIN and Name.
 
 ### Compiling, Training, and Evaluating the Model
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
